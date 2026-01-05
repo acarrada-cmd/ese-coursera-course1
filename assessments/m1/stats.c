@@ -9,15 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file Stats.c 
+ * @brief Code for calculates stadistical values for a unidimentional array and print
+ * each value.
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
- *
- */
+ * 
+ * @author <A Carrada>
+ * @date <01 05 2026 >
 
 
 
@@ -39,5 +37,11 @@ void main() {
   /* Statistics and Printing Functions Go Here */
 
 }
+
+
+
+
+
+
 
 /* Add other Implementation File Code Here */

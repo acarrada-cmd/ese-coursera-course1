@@ -22,6 +22,15 @@
 #include <stdint.h>
 #include <stdio.h> // to available printf
 
+#define DATA_SET_SIZE_W (10)
+#define MEM_SET_SIZE_B  (32)
+#define MEM_SET_SIZE_W  (8)
+#define MEM_ZERO_LENGTH (16)
+
+#define TEST_MEMMOVE_LENGTH (16)
+#define TEST_ERROR          (1)
+#define TEST_NO_ERROR       (0)
+#define TESTCOUNT           (8)
 
 /**
  * @brief Reverses the byte order of an unsigned 32-bit integer
@@ -34,15 +43,7 @@
  */
 unsigned int swap32(unsigned int word);
 
-#define DATA_SET_SIZE_W (10)
-#define MEM_SET_SIZE_B  (32)
-#define MEM_SET_SIZE_W  (8)
-#define MEM_ZERO_LENGTH (16)
 
-#define TEST_MEMMOVE_LENGTH (16)
-#define TEST_ERROR          (1)
-#define TEST_NO_ERROR       (0)
-#define TESTCOUNT           (8)
 
 /**
  * @brief function to run course1 materials
