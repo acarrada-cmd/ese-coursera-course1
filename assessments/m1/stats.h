@@ -20,6 +20,7 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
+#include <stdio.h>
 /* Add Your Declarations and Function Comments here */ 
 
 /**
@@ -33,7 +34,7 @@
  *
  * @return void This function does not return a value.
  */
-void print_array_unidimentional(int *array, int size);
+void print_array_unidimentional(unsigned char *array, unsigned int length);
 
 /**
  * @brief Returns the median value of a data array.
