@@ -20,6 +20,19 @@
 #define __COURSE1_H__
 
 #include <stdint.h>
+#include <stdio.h> // to available printf
+
+
+/**
+ * @brief Reverses the byte order of an unsigned 32-bit integer
+ * * This function takes as an input a 32-bit integer. This will
+ * reverse the byte order of the full word. Instead of changing the
+ * parameter passed it, it will returned a reversed unsigned 32-bit
+ * integer.
+ * * @param word The 32-bit word to be reversed
+ * @return The reversed 32-bit value word
+ */
+unsigned int swap32(unsigned int word);
 
 #define DATA_SET_SIZE_W (10)
 #define MEM_SET_SIZE_B  (32)
